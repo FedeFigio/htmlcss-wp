@@ -111,13 +111,13 @@ main {
 }
 
 .int-item {
-    height: 30%;
+    height: 20%;
 }
 
 .item-left,
 .item-right,
 .item-middle {
-    height: 70%;
+    height: 80%;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
