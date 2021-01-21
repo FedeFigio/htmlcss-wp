@@ -44,6 +44,14 @@ body {
     padding: .5rem 0;
 }
 
+.pad-b-0 {
+    padding-bottom: 0;
+}
+
+.pad-t-0 {
+    padding-top: 0;
+}
+
 
 /* width column */
 
