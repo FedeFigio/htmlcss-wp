@@ -72,6 +72,12 @@ body {
     height: 100%;
 }
 
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(134, 134, 134, 0.5);
+}
+
 
 /* float */
 
@@ -80,6 +86,9 @@ body {
     display: table;
     clear: both;
 }
+
+
+/* .overlay, */
 
 [class^="col-"] {
     float: left;
@@ -93,7 +102,7 @@ header {
 }
 
 .nav>a {
-    /* display: inline-block */
+    display: inline-block;
     padding: .5rem;
     text-decoration: none;
     color: rgb(134, 134, 134);
@@ -114,7 +123,7 @@ header>img {
 
 .container-one {
     height: 20rem;
-    padding-top: 10.5rem;
+    ;
 }
 
 .bg-banner {
@@ -128,6 +137,7 @@ header>img {
 }
 
 .desc {
+    padding-top: 10.5rem;
     width: 60%;
     color: white;
 }
