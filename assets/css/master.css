@@ -170,6 +170,7 @@ header>img {
 
 .img-s-2-right {
     background-image: url(../img/img-3.jpg);
+    background-color: rgb(139, 11, 11);
 }
 
 
@@ -186,5 +187,5 @@ footer {
 }
 
 .info {
-    margin: 0 auto;
+    text-align: center;
 }
