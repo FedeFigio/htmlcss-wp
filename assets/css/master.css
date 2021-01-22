@@ -4,35 +4,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
 }
 
 body {
     max-width: 1024px;
     width: 80%;
     margin: 0 auto;
+    padding: .5rem 0;
 }
 
 
 /* UTILITY */
 
-.bg-pink {
-    background-color: #E579E6;
-}
-
-.bg-yellow {
-    background-color: #E1D67A;
-}
-
-.bg-blue {
-    background-color: #0086FF;
-}
-
-.bg-cyan {
-    background-color: #ABCFE7;
-}
-
 .bg-violet {
     background-color: #8801FE;
+}
+
+.gray {
+    color: rgb(134, 134, 134)
 }
 
 
@@ -40,6 +30,10 @@ body {
 
 .mb-10 {
     margin-bottom: 1rem;
+}
+
+.mb-15 {
+    margin-bottom: 1.5rem;
 }
 
 .mb-5 {
@@ -55,15 +49,27 @@ body {
     padding-bottom: .5rem;
 }
 
+.pl-25 {
+    padding-left: 2.5rem;
+}
+
+.p {
+    padding: .5rem;
+}
+
+.radious {
+    border-radius: 1rem;
+}
+
 
 /* width /height */
 
-.col-60 {
-    width: 60%;
+.col-50 {
+    width: 50%;
 }
 
-.col-20 {
-    width: 20%;
+.col-25 {
+    width: 25%;
 }
 
 .h-100 {
@@ -90,6 +96,20 @@ header {
     min-height: 5rem;
 }
 
+.nav>a {
+    /* display: inline-block */
+    padding: .5rem;
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+}
+
+header>img {
+    width: 12rem;
+    margin-bottom: 2rem;
+    border-right: 1px solid rgb(206, 206, 206);
+    ;
+}
+
 
 /* MAIN */
 
@@ -97,19 +117,59 @@ header {
 /* SECTION 1*/
 
 .container-one {
-    min-height: 24rem;
+    height: 20rem;
+    padding-top: 8rem;
+}
+
+.bg-banner {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.desc>h1 {
+    font-weight: lighter;
+}
+
+.desc {
+    width: 60%;
+    color: white;
 }
 
 
 /* SECTION 2*/
 
+.section-2-col>img {
+    width: 100%;
+}
+
 .section-2-col {
     min-height: 24rem;
 }
 
-.row>.bg-cyan:nth-child(1) {
+.row>.col-:nth-child(1) {
     min-height: 4rem;
     width: 100%;
+}
+
+.img-s-2-center,
+.img-s-2-left,
+.img-s-2-right {
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+}
+
+.img-s-2-left {
+    background-image: url(../img/img-1.jpg)
+}
+
+.img-s-2-center {
+    background-image: url(../img/banner-2.jpg);
+}
+
+.img-s-2-right {
+    background-image: url(../img/img-3.jpg);
 }
 
 
@@ -117,4 +177,14 @@ header {
 
 footer {
     min-height: 4rem;
+}
+
+.info::after {
+    content: "	\2764";
+    color: red;
+    font-size: 1rem;
+}
+
+.info {
+    margin: 0 auto;
 }
